@@ -41,9 +41,9 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="stateHidden|adjustResize"/>
 
-        <meta-data android:name="Mob-AppKey" android:value="28bc12fa236e4"/>
+        <meta-data android:name="Mob-AppKey" android:value="xxxxx"/>
 
-        <meta-data android:name="Mob-AppSecret" android:value="44cb357655f252a8a75eac378b8283ad"/>
+        <meta-data android:name="Mob-AppSecret" android:value="xxxxx"/>
 
     </application>
 
