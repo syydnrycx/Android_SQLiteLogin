@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>   <!-- 默认状态 -->
+            <!-- 形状填充颜色 -->
+            <solid android:color="#FCFCFC"/>
+
+            <!--
+                描边
+                android:width      整型  描边的宽度
+                android:color    颜色值 描边的颜色
+                android:dashWidth  整型   表示描边的样式是虚线的宽度， 值为0时，表示为实线。值大于0则为虚线。
+               android:dashGap   整型  表示描边为虚线时，虚线之间的间隔 即“ - - - - ”
+            -->
+            <stroke
+                android:width="2dp"
+                android:color="#2a6d93" />
+
+            <!--
+               圆角
+                    android:radius   整型 下面属性没有指定时的默认半径
+                    android:topLeftRadius     整型 左上角半径
+                    android:topRightRadius    整型 右上角半径
+                    android:bottomLeftRadius   整型 左下角半径
+                    android:bottomRightRadius  整型 右下角半径
+             -->
+            <corners
+                android:radius="180dp"/>
+
+            <!--
+               内边距，即内容与边的距离
+               android:left      整型 左内边距
+               android:top      整型 上内边距
+               android:right     整型 右内边距
+               android:bottom     整型 下内边距
+            -->
+            <padding
+                android:left="20dp"
+                android:right="20dp"
+                android:top="20dp"
+                android:bottom="20dp" />
+        </shape>
+    </item>
+</selector>

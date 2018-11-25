@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SQLiteLogin</string>
+    <string name="rule_edit">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+
+</resources>

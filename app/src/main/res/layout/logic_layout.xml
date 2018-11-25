@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="账户：" />
+
+        <!--
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:background="@drawable/myedit_style"
+            android:hint="账号" />
+-->
+        <com.example.syydnrycx.sqlitelogin.Class.ClearEditText
+            android:id="@+id/user_name"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/user_name"
+            android:drawablePadding="6dp"
+            android:hint="name_tip"
+            android:singleLine="true"
+            android:background="@drawable/myedit_style" >
+            <requestFocus />
+        </com.example.syydnrycx.sqlitelogin.Class.ClearEditText>
+
+        <ImageButton
+            android:id="@+id/user_btn_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lg_down"
+            android:paddingRight="2dip"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="密码：" />
+
+        <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/myedit_style"
+            android:layout_marginLeft="5dp"
+            android:hint="密码" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="手机：" />
+
+        <EditText
+            android:id="@+id/ed_phone"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/myedit_style"
+            android:hint="手机号" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="验证码：" />
+
+        <EditText
+            android:id="@+id/ed_code"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/myedit_style"
+            android:layout_marginLeft="5dp"
+            android:hint="验证码" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/mybutton_style"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mybutton_style"
+            android:text="注册" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_getphonecore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/mybutton_style"
+            android:text="获取验证码" />
+        <Button
+            android:id="@+id/bt_corelogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mybutton_style"
+            android:text="验证码登录" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

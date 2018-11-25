@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--实现应用背景颜色渐变-->
+
+    <!--
+    centerX/centerY-座标
+    centerColor-中间点颜色
+    startColor-起始颜色
+    endColor-终点颜色
+    angle-渐变方向
+    -->
+    <gradient
+        android:centerColor="#ffffff"
+        android:centerX="0.8"
+        android:centerY="0.8"
+        android:startColor="#FFF8DC"
+        android:endColor="#66ffff"
+        android:angle="270"/>
+
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp"
+        />
+    <!--corners节点配置四周圆角的半径。-->
+    <corners android:radius="4dp"/>
+</shape>
